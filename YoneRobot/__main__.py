@@ -75,9 +75,9 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 нєуα тнєяє!
-I'м [𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎](https://telegra.ph/file/9d59bd2ea06a607bcf2df.jpg) , ƒяσм тєcнησℓσgιcαℓ ωσяℓ∂. 😜
+I'м [ULTRON](https://telegra.ph/file/9d59bd2ea06a607bcf2df.jpg)
 
-ι αм αη ƒяιєη∂ℓу gяσυρ мαηαgємєηт вσт, αη∂ ι ωιℓℓ нєℓρ уσυ мαηαgιηg уσυя gяσυρ, נυѕт α∂∂ мє тнєяє
+I am an Friendly Group Management Bot..!! I can manage ur groups. Just add me there as admin.
 
 ✯ υѕє /help тσ ѕєє му cσммαη∂ѕ ✯
 """
@@ -85,7 +85,7 @@ I'м [𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎](https://telegra.ph/file/9d59bd2ea06a607bcf
 buttons = [
     [
         InlineKeyboardButton(
-            text="💫 Aᴅᴅ 𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎 ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💫", url="t.me/Titan1v0_bot?startgroup=true"),
+            text="💫 Aᴅᴅ ULTRON ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💫", url="t.me/Ultron01_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="『 ɪɴꜰᴏ 』", callback_data="yone_"),
@@ -96,7 +96,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📍 Uᴘᴅᴀᴛᴇꜱ 📍", url=f"https://t.me/TITAN_UPDATES"),
         InlineKeyboardButton(
-            text="👑 Cʀᴇᴀᴛᴏʀ 👑", url=f"https://t.me/DARK_DEVIL_OP"
+            text="👑 Cʀᴇᴀᴛᴏʀ 👑", url=f"https://t.me/Mafiarishabh"
         ),
     ],
     [
@@ -106,7 +106,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-𝐇𝐞𝐥𝐩𝐟𝐮𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 σƒ [𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎](https://telegra.ph/file/9d59bd2ea06a607bcf2df.jpg) : .
+𝐇𝐞𝐥𝐩𝐟𝐮𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 σƒ [ULTRON](https://telegra.ph/file/9d59bd2ea06a607bcf2df.jpg) : .
 》》 /start : ѕтαятѕ мє! уσυ'νє ρяσвαвℓу αℓяєα∂у υѕє∂ тнιѕ.
 》》 /help : ѕєη∂ѕ тнιѕ мєѕѕαgє; ι'ℓℓ тєℓℓ уσυ мσяє αвσυт муѕєℓƒ!
 """
@@ -359,16 +359,16 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ɪ'ᴍ 𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎, ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ.
+            text=""" ɪ'ᴍ ULTRON, ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ.
                  \n✪ ι cαη яєѕтяιcт υѕєяѕ.
                  \n✪ ι cαη gяєєт υѕєяѕ ωιтн cυѕтσмιzαвℓє ωєℓ¢σмє мєѕѕαgєѕ αη∂ єνєη ѕєт α gяσυρ'ѕ яυℓєѕ.
                  \n✪ ι нανє αη α∂ναη¢є∂ αηтι-ƒℓσσ∂ ѕуѕтєм.
                  \n✪ ι cαη ωαяη υѕєяѕ υηтιℓ тнєу яєαcн мαχ ωαяηѕ, ωιтн єαcн ρяє∂єƒιηє∂ αcтισηѕ ѕυcн αѕ вαη, мυтє, кιcк, єтc.
                  \n✪ ι нανє α ησтє кєєριηg ѕуѕтєм, вℓαcкℓιѕтѕ, αη∂ єνєη ρяє∂єтєямιηє∂ яєρℓιєѕ ση cєятαιη кєуωσя∂ѕ.
                  \n✪ ι cнєcк ƒσя α∂мιηѕ' ρєямιѕѕισηѕ вєƒσяє єχєcυтιηg αηу cσммαη∂ αη∂ мσяє ѕтυƒƒѕ
-                 \n\n_𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎 ιѕ ℓιcєηѕє∂ υη∂єя тнє 𝐆𝐍𝐔 ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴꜱᴇ v3.0_
-                 \nαηу qυєѕтισηѕ αвσυт 𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎 cσмє тσ [ѕυρρσят gяσυρ](t.me/TITANX_CHAT) .
-                 \n\nвє υρ∂αтє∂ αвσυт 𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎 ву נσιηιηg [υρ∂αтєѕ cнαηηєℓ](t.me/TITAN_UPDATES) .""",
+                 \n\n_ULTRON ιѕ ℓιcєηѕє∂ υη∂єя тнє 𝐆𝐍𝐔 ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴꜱᴇ v3.0_
+                 \nαηу qυєѕтισηѕ αвσυт ULTRON cσмє тσ [ѕυρρσят gяσυρ](t.me/TITANX_CHAT) .
+                 \n\nвє υρ∂αтє∂ αвσυт ULTRON ву נσιηιηg [υρ∂αтєѕ cнαηηєℓ](t.me/TITAN_UPDATES) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
